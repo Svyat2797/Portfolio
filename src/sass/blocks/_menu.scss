@@ -36,7 +36,6 @@
     }
     &__block {
         position: relative;
-        left:-100%;
         width: 345px;
         background-color: $main-color;
         height:100%;
@@ -61,12 +60,12 @@
         font-size: 24px;
         line-height: 36px;
         margin-bottom: 15px;
-       
-        &::before {
+        &:before {
             content: '';
             position: absolute;
             left: -35px;
             top: 10px;
+            width: 15px;
             height: 15px;
             border: 1px solid #000000;
             border-radius: 100%;
@@ -87,10 +86,10 @@
         bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
+        width: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90px;
     }
     &__overlay {
         position: fixed;
