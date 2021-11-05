@@ -21,11 +21,7 @@
     background-color: $main-color;
     margin: 0 auto;
 }
-.grid-container {
-    width: 1140px;
-    margin: 0 auto;
 
-}
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/button';
@@ -33,3 +29,4 @@
 @import 'blocks/menu';
 @import 'blocks/about-me';
 @import 'blocks/experience';
+@import 'blocks/skills';
