@@ -1,0 +1,206 @@
+@media(max-width:1400px) {
+    .sidepanel {
+        display: none;
+    }
+}
+@media(max-width:1201px) {
+    .container {
+        max-width: 960px;
+    }
+    .title {
+        &__fz48 {
+            font-size: 38px;
+        }
+    }
+    .about-me {
+        &__wrapper {
+            grid-template-columns: 300px 550px;
+        }
+    }
+    .experience {
+        &__wrapper {
+            padding: 60px 45px 0 45px;
+            column-gap: 50px;
+        }
+    }
+    .skills {
+        padding-top: 100px;
+        &__wrap {
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(3, 270px);
+        justify-content: center;
+        }
+        &__wrapper {
+            padding-top: 90px;
+            grid-template-columns: repeat(2, 350px);
+            justify-content: center;
+        }
+    }
+}
+@media(max-width:993px) {
+    .container {
+        max-width: 720px;
+    }
+    .about-me {
+        &__wrapper {
+            grid-template-columns: 300px 400px;
+            column-gap: 50px;
+        }
+        &__subtitle {
+            font-size: 26px;
+        }
+        &__skills {
+            grid-template: repeat(2, minmax(115px, auto))/ 360px ;
+            grid-auto-rows: minmax(115px, auto);
+            &-item {
+                grid-template-columns: 40px 320px ;
+            }
+        }
+    }
+    .experience {
+        &__wrapper {
+            grid-template-columns: repeat(2, 325px);
+            
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+    }
+    .skills {
+        &__wrap {
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(2, 270px);
+        }
+        &__wrapper {
+            grid-template-columns: repeat(2, 350px);
+            column-gap:30px;
+        }
+    }
+}
+@media(max-width:769px) {
+    .container {
+        max-width: 540px;
+    }
+    .title {
+        &__fz48 {
+            font-size: 30px;
+            width: 70%;
+            line-height: 39px;
+        }
+    }
+    .about-me {
+        padding-top: 40px;
+    &__wrapper {
+        grid-template: 500px auto auto / 1fr;
+    }
+    &__photo {
+        grid-row: unset;
+    }
+    &__skills {
+        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 250px) ;
+        column-gap:25px;
+        &-item {
+            grid-template-columns: 40px 200px ;
+            }
+        }
+    }
+    .experience {
+        padding-top: 46px;
+        &__wrapper {
+            padding: 40px 45px 0 45px;
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+            
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+    }
+    .skills {
+        &__wrap {
+            padding-top: 50px;
+        }
+        &__wrapper {
+            padding-top: 70px;
+            grid-template-columns: 350px;
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+    }
+    
+
+}
+@media(max-width:577px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title {
+        &__fz48 {
+            font-size: 26px;
+            width: 300px;
+            line-height: 39px;
+        }
+       
+    }
+    .hamburger {
+        right: 20px;
+    }
+    .menu {
+        &__block {
+            width: 250px;
+        }
+        &__list {
+            padding-left: 20px;
+        }
+    }
+    .about-me {
+        &__subtitle {
+            font-size: 24px;
+        }
+        &__skills {
+            grid-template-columns: 1fr;
+            &-item {
+                grid-template-columns: 40px 1.1fr ;
+            }
+        }
+
+    }
+    .experience {
+        &__wrapper {
+            padding: 40px 10px 0 10px;
+            grid-template-columns: 1fr;
+            
+        }
+        &__subtitle {
+            font-size: 24px;
+        }
+    }
+    .skills {
+        padding-top: 46px;
+        &__subtitle {
+            font-size: 24px;
+            line-height: 36px;
+            margin-top: 20px;
+        }
+        &__wrap {
+            padding-top: 50px;
+            grid-template: repeat(2, minmax(270px, auto)) /  270px;    
+        }
+        &__wrapper {
+            padding-top: 70px;
+            grid-template-columns: 300px;
+
+        }
+        &__percent {
+            &-line {
+                width: 300px;
+            }
+        }
+    }
+    .title {
+        &__fz16 {
+            font-size: 14px;
+        }
+    }
+    
+}

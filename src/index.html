@@ -104,7 +104,7 @@
         </div>
         <div class="menu__overlay"></div>
     </div>
-    <section class="promo">
+<section class="promo">
         <div class="hamburger">
             <span></span>
             <span class="long"></span>
@@ -112,24 +112,28 @@
         </div>
         <div class="container">
             <div class="title title__fz16 promo__subtitle">Меня зовут Вячеслав Михейко</div>
-            <h1 class="title title__fz48 promo__title">Я web-разработчик из города Санкт-Петербург</h1>
+            <h1 class="title title__fz48 promo__title">Я junior-верстальщик из города Санкт-Петербурга</h1>
                 <div class="promo__btns">
                     <a href="#" class="promo__link btn"><span>Портфолио</span></a>
                     <a href="#" class="promo__link btn"><span>Про меня</span></a>
                 </div>
         </div>
     </section>
-    <section class="about-me">
+<section class="about-me">
         <div class="container">
             <div class="about-me__wrapper">
                 <div class="about-me__photo">
-                    <img src="icons/about_me/Photo.jpg" alt="photo">
+                    <picture>
+                        <source media="(max-width:576)" srcset="img/photo-min.jpg">
+                        <source media="(min-width:577)" srcset="img/photo.jpg">
+                        <img src="img/photo.jpg" alt="photo">
+                    </picture>
                 </div>
                 <div class="about-me__descr">
                     <h2 class="title title__fz16 about-me__title">Про меня</h2>
-                    <div class="title about-me__sibtitle">Меня зовут Вячеслав</div>
+                    <div class="title about-me__subtitle">Меня зовут Вячеслав</div>
                     <div class="divider"></div>
-                    <p class="about-me__text text__fz14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute ire dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p class="about-me__text text__fz14">Я явяляюсь начинающим верстальщиком/Front-end-разработчиком. На данный момент прохожу курс по веб-разработке на Udemi.Владею навыками HTML,CSS, методолгией БЭМ, препроцессором SASS. По образованию судебный эксперт инженерно-технических экспертиз.</p>
                 </div>
             <div class="about-me__skills">
                 <div class="about-me__skills-item">
@@ -162,7 +166,7 @@
             </div>
             </div>
         </div>
-    </section>
+    </section> 
     <section class="experience">
         <div class="container">
             <h2 class="title title__fz16 title__section-title">Опыт</h2>
@@ -231,7 +235,7 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+   <section class="skills">
         <div class="container">
             <h2 class="title title__fz16 title__section-title">Навыки</h2>
             <div class="title  skills__subtitle">Что я использую в работе</div>
@@ -333,7 +337,7 @@
             </div>
         </div>
     </section>
-    <section class="works">
+   <!--  <section class="works">
         <div class="container">
             <h2 class="title title__fz16 title__section-title">Портфолио</h2>
             <div class="title  works__subtitle">Мои работы</div>
@@ -359,8 +363,8 @@
                 <img src="icons/about_me/work/mac.jpg" alt="mac">
             </a>
         </div>
-    </section>
-    <section class="price">
+    </section> -->
+   <!--  <section class="price">
         <div class="container">
             <h2 class="title title__fz16 title__section-title">Прайс-лист</h2>
             <div class="divider"></div>
@@ -397,8 +401,8 @@
                     </div>
             </div>
         </div>
-    </section>
-    <section class="contacts">
+    </section> -->
+    <!-- <section class="contacts">
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
@@ -445,7 +449,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
     <script src="js/script.js"></script>
 </body>
 </body>

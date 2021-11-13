@@ -46,8 +46,10 @@
     }
     &__percent {
          display: grid;
-         grid-template-columns: 315px 35px;
+         grid-template-columns: 200px 35px;
          grid-template-rows: minmax(21px, auto) 41px;
+         justify-content: space-between;
+         align-content: space-between;
 
 
         &-title {
