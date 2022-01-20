@@ -68,6 +68,14 @@
             color: #000000;
 
         }
+        &-link {
+            color:black;
+            &:hover {
+                color:$main-color;
+               
+            }
+            
+        }
         &-icon {
             position: absolute;
             top: 50px;
